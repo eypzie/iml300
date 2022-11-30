@@ -1,5 +1,11 @@
+html {
+    box-sizing: border-box;
+}
+
 body {
-    background-color: darkred;
+/*    background-color: darkred;*/
+    overflow: hidden;
+    margin: 0;
 }
 
 img {
@@ -12,19 +18,32 @@ canvas {
     display: block;
 }
 
-text {
-    
-    color: white;
+.text-container{
+    margin-left: 50vw;
 }
 
-.episode {
-    transform: rotate(-90deg);
+.text-container p{
+    font-size: 50px;
+    color: white;
+    line-height: 0px;
+}
+
+.text-container div{
     position: absolute;
-    font-size: 100px;
-    color: white;
+    background-color: black;
+    width: fit-content;
+    height: fit-content;
+    margin-top: 50vh;
 }
 
-.episode1 {
-    bottom: -150px;
-    left: -100px;
+.one {
+    top: -30vh
+}
+
+.two {
+    top: -17vh
+}
+
+.three {
+    top: 3vh
 }
