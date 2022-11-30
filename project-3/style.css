@@ -3,7 +3,7 @@ html {
 }
 
 body {
-/*    background-color: darkred;*/
+    /*    background-color: darkred;*/
     overflow: hidden;
     margin: 0;
 }
@@ -18,17 +18,50 @@ canvas {
     display: block;
 }
 
-.text-container{
+.intro {
+    font-size: 20px;
+    font-weight: 50px;
+    position: absolute;
+    color: aliceblue;
+    left: 35vw
+}
+.info {
+    font-size: 20px;
+    font-weight: 50px;
+    text-align: right;
+    position: absolute;
+    width: fit-content;
+    height: fit-content;
+    color: aliceblue;
+    left: 67vw;
+    right: 1vw;
+    margin-top:35vh;
+    background-color: black;
+}
+.infoT {
+    font-size:30px;}
+    
+.end {
+    font-size: 20px;
+    font-weight: 50px;
+    position: absolute;
+    color: aliceblue;
+    left: 90vw;
+    margin-top:90vh;
+}
+
+.text-container {
     margin-left: 50vw;
 }
 
-.text-container p{
+.text-container p {
+   text-align: right;
     font-size: 50px;
     color: white;
     line-height: 0px;
 }
 
-.text-container div{
+.text-container div {
     position: absolute;
     background-color: black;
     width: fit-content;
@@ -41,9 +74,9 @@ canvas {
 }
 
 .two {
-    top: -17vh
+    top: -15vh
 }
 
 .three {
-    top: 3vh
+    top: 0vh
 }

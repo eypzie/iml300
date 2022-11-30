@@ -56,10 +56,10 @@ function draw() {
   let w = (460, 490);
   let h = (320, 400);
   
-  if (mouseIsPressed) {
-    text("intrusctions: SCREAM! no really scream. SMASH your keyboard!! get ANGRY!!!!", 150, 20);
-    textFont(fontBold);
-  } else {}
+//  if (mouseIsPressed) {
+//    text("intrusctions: SCREAM! no really scream. SMASH your keyboard!! get ANGRY!!!!", 150, 20);
+//    textFont(fontBold);
+//  } else {}
 
   // red = (202, 49, 0, 100);
   // yellow = (250,185,74,100);
