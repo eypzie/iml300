@@ -39,7 +39,9 @@ canvas {
     background-color: black;
 }
 .infoT {
-    font-size:30px;}
+    width: fit-content;
+    left: 77vw;
+    font-size:23px;}
     
 .end {
     font-size: 20px;
