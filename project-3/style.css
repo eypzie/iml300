@@ -16,3 +16,15 @@ text {
     
     color: white;
 }
+
+.episode {
+    transform: rotate(-90deg);
+    position: absolute;
+    font-size: 100px;
+    color: white;
+}
+
+.episode1 {
+    bottom: -150px;
+    left: -100px;
+}
